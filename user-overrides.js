@@ -46,6 +46,8 @@ user_pref("browser.uidensity", 1);
 user_pref("sidebar.revamp", false);
 user_pref("sidebar.visibility", "always-show");
 user_pref("sidebar.revamp.round-content-area", true);
+user_pref("sidebar.main.tools", "syncedtabs,history,bookmarks");
+user_pref("sidebar.expandOnHoverMessage.dismissed", true);
 
 // PREF: Vertical tabs
 user_pref("sidebar.verticalTabs", true);
