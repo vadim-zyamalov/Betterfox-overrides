@@ -50,10 +50,10 @@ user_pref("sidebar.main.tools", "syncedtabs,history,bookmarks");
 user_pref("sidebar.expandOnHoverMessage.dismissed", true);
 
 // PREF: Vertical tabs
-user_pref("sidebar.verticalTabs", true);
+user_pref("sidebar.verticalTabs", false);
 
 // PREF: restore Top Sites on New Tab page
-user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); // Shortcuts
+user_pref("browser.newtabpage.activity-stream.feeds.topsites", true); // Shortcuts
 user_pref("browser.newtabpage.activity-stream.default.sites", ""); // clear default topsites
 
 // PREF: remove sponsored content on New Tab page
