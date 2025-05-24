@@ -37,7 +37,7 @@ user_pref("browser.theme.content-theme", 0);
 user_pref("browser.theme.toolbar-theme", 0);
 
 // PREF: no bookmarks panel
-user_pref("browser.toolbars.bookmarks.visibility", "never");
+user_pref("browser.toolbars.bookmarks.visibility", "newtab");
 
 // PREF: browser UI density
 user_pref("browser.uidensity", 1);
