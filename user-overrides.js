@@ -68,8 +68,8 @@ user_pref("browser.newtabpage.activity-stream.showSearch", false);
  * UX settings *
  * ----------- */
 
-// PREF: restore session
-user_pref("browser.startup.page", 3);
+// PREF: don't restore session
+user_pref("browser.startup.page", 1);
 
 // PREF: don't hide download button
 user_pref("browser.download.autohideButton", false);
