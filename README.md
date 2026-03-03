@@ -4,7 +4,7 @@
 [about:config](https://support.mozilla.org/en-US/kb/about-config-editor-firefox) tweaks to enhance [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/).
 
 ## Made for everyday browsing
-[Faster](https://medium.com/@mihirgrand/comparing-popular-firefox-forks-6fa83fdfdaad#:~:text=31%25%20more%20than%20vanilla%20Firefox), more private and secure — without using third-party code.
+Make Firefox more private and secure — without using third-party code.
 
 Betterfox is an opinionated preference list inspired by the [law of diminishing returns](https://miro.medium.com/v2/resize:fit:1206/1*lcOcxriV_II_lZuXQYLoXg.jpeg) and the [minimum effective dose](https://medium.com/the-mission/less-is-more-the-minimum-effective-dose-e6d56625931e).
 
@@ -27,17 +27,14 @@ Betterfox is an opinionated preference list inspired by the [law of diminishing 
 
 ## Simple configs
 
-`Fastfox`, `Securefox`, `Peskyfox`, and `Smoothfox` are guides to settings within Firefox.
-
-The `user.js` — a configuration file that controls Firefox settings — is curated from these guides.
+`Securefox`, `Peskyfox`, and `Smoothfox` are guides to settings within Firefox. The `user.js` — a configuration file that controls Firefox settings — is curated from these guides.
 
 | List      | Description |
 |:---------:|-------------|
-| [Fastfox](https://github.com/yokoffing/Betterfox/blob/main/Fastfox.js)   | Increase Firefox's browsing speed. Give Chrome a run for its money!|
+| [user.js](https://github.com/yokoffing/Betterfox/blob/main/user.js) | All the essentials. None of the breakage. This is your `user.js`. |
 | [Securefox](https://github.com/yokoffing/Betterfox/blob/main/Securefox.js) | Protect user data without causing site breakage. |
 | [Peskyfox](https://github.com/yokoffing/Betterfox/blob/main/Peskyfox.js)  | Provide a clean, distraction-free browsing experience. |
-| [Smoothfox](https://github.com/yokoffing/Betterfox/blob/main/Smoothfox.js) | Get Edge-like smooth scrolling on your favorite browser — or choose something more your style. |
-| [user.js](https://github.com/yokoffing/Betterfox/blob/main/user.js) | All the essentials. None of the breakage. This is your `user.js`. |
+| [Smoothfox](https://github.com/yokoffing/Betterfox/blob/main/Smoothfox.js)<br>(optional) | Get Edge-like smooth scrolling on your favorite browser — or choose something more your style. |
 
 ## Recognition
 
@@ -45,7 +42,7 @@ The `user.js` — a configuration file that controls Firefox settings — is cur
 > [!IMPORTANT]
 > While the browsers listed below incorporate Betterfox to some extent, they often modify it in ways that reduce its effectiveness. For optimal results, apply the `user.js` file even when using Firefox forks.
 
-* [Zen](https://github.com/zen-browser/desktop?tab=readme-ov-file) | [files](https://github.com/zen-browser/desktop/blob/stable/src/browser/app/profile/zen-browser.js) (July 2024)
+* [Zen](https://github.com/zen-browser/desktop?tab=readme-ov-file) | [files](https://github.com/zen-browser/desktop/tree/stable/prefs) (July 2024)
 * [FireDragon](https://github.com/dr460nf1r3/firedragon-browser/blob/master/README.md) | [files](https://github.com/dr460nf1r3/firedragon-browser/blob/55fc6e5029542cd90fabe23cb44c89568d74d006/firedragon.cfg#L822-L824) (Jan 2024?)
 * [Midori](https://github.com/goastian/midori-desktop/blob/ESR115/README.md) | [files](https://github.com/goastian/midori-desktop/blob/f3d8d96eb8e08f35a64e3c957bea4e839d7c7730/floorp/browser/components/userjsUtils.sys.mjs#L28-L33) (Dec 2023?)
 * [Mercury](https://github.com/Alex313031/Mercury/releases/tag/v.115.3.0) | [files](https://github.com/Alex313031/Mercury/commit/eb9600f9fb8f48c8f5b5c6f3264fbcdb5caff7f5) (Sep 2023)
@@ -67,6 +64,8 @@ The `user.js` — a configuration file that controls Firefox settings — is cur
 * [GhoSTORIES with Franz & Pete](https://anchor.fm/ghostories/episodes/S2E6-We-Talking-Ghostery-Dawn----Again-er0q02/a-a4o5vmh) | 17:05–18:40 (Feb 2021)
 
 ### Articles
+* [How I Set Up Firefox for True Privacy ](https://dtptips.com/how-i-set-up-firefox-for-true-privacy-hint-its-not-the-default-setup/) (Oct 2025)
+* [Phishing Bank Logins Over Plain HTTP in 2025](https://vrls.ws/posts/phishing-bank-logins-over-plain-http-in-2025/) (Oct 2025)
 * [Español] [Firefox is an excellent browser, but this small modification makes it much faster and more private](https://www.genbeta.com/a-fondo/firefox-excelente-navegador-esta-pequena-modificacion-hace-mucho-rapido-privado-asi-funciona-betterfox) (Jan 2025)
 * [Browsers for Daily Use](https://anhkhoakz.neocities.org/blog/browsers-for-daily-using/#firefox-but-hardened) (Jan 2024)
 * [Avoiding Manifest V3 – Escaping the Ad-Pocalypse](https://www.xbitlabs.com/avoiding-manifest-v3/) (Dec 2023)
