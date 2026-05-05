@@ -6,7 +6,6 @@
         "DisableFirefoxStudies": true,
         "DisableTelemetry": true,
         "DisableFeedbackCommands": true,
-        "DisablePocket": true,
         "DisableSetDesktopBackground": true,
         "DisableDeveloperTools": false,
         "DontCheckDefaultBrowser": true,
@@ -14,6 +13,15 @@
             "Enabled": false,
             "ProviderURL": "",
             "Locked": false
+        },
+
+        "FirefoxHome": {
+          "SponsoredStories": false,
+          "SponsoredTopSites": false,
+          "Stories": false
+        },
+        "GenerativeAI": {
+          "Enabled": false
         },
         "ManualAppUpdateOnly": false,
         "ManualAppUpdateOnly_comment": "Change to true to disable auto-updates.",
@@ -36,7 +44,8 @@
             "PreventInstalls": false,
             "Remove": [
                 "Amazon.com",
-                "eBay"
+                "eBay",
+                "Perplexity"
             ],
             "Default": "DuckDuckGo",
             "Add": [
