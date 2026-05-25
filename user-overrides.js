@@ -45,14 +45,14 @@ user_pref("browser.toolbars.bookmarks.visibility", "newtab");
 user_pref("browser.uidensity", 1);
 
 // PREF: Sidebar
-user_pref("sidebar.revamp", false);
+user_pref("sidebar.revamp", true);
 user_pref("sidebar.visibility", "always-show");
 user_pref("sidebar.revamp.round-content-area", true);
 user_pref("sidebar.main.tools", "syncedtabs,history,bookmarks");
 user_pref("sidebar.expandOnHoverMessage.dismissed", true);
 
 // PREF: Vertical tabs
-user_pref("sidebar.verticalTabs", false);
+user_pref("sidebar.verticalTabs", true);
 
 // PREF: restore Top Sites on New Tab page
 user_pref("browser.newtabpage.activity-stream.feeds.topsites", true); // Shortcuts
@@ -65,10 +65,6 @@ user_pref("browser.newtabpage.activity-stream.showSponsored", false); // Sponsor
 
 // PREF: no search on New Tab page
 user_pref("browser.newtabpage.activity-stream.showSearch", false);
-
-// PREF: show weather on New Tab page
-// I'm too lazy to look out the window...
-user_pref("browser.newtabpage.activity-stream.system.showWeather", true);
 
 /* ----------- *
  * UX settings *
