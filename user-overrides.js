@@ -6,16 +6,18 @@ user_pref("browser.contentblocking.category", "standard");
 
 // PREF: disable login manager
 user_pref("signon.rememberSignons", true);
-// user_pref("signon.rememberSignons", false);
-// user_pref("signon.autofillForms", false);
-// user_pref("signon.generation.enabled", false);
+user_pref("signon.rememberSignons", false);
+user_pref("signon.autofillForms", false);
+user_pref("signon.generation.enabled", false);
+user_pref("signon.generation.available", false);
 user_pref("signon.firefoxRelay.feature", "disabled");
-// user_pref("services.sync.engine.passwords", false);
+user_pref("services.sync.engine.passwords", false);
 user_pref("services.sync.engine.creditcards", false);
-user_pref("services.sync.declinedEngines", "creditcards");
-// user_pref("services.sync.declinedEngines", "passwords,creditcards");
+user_pref("services.sync.engine.creditcards.available", false);
+user_pref("services.sync.declinedEngines", "passwords,creditcards");
 
 // PREF: disable address and credit card manager
+user_pref("services.sync.engine.addresses.available", false);
 user_pref("extensions.formautofill.addresses.enabled", false);
 user_pref("extensions.formautofill.creditCards.enabled", false);
 
