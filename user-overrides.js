@@ -5,7 +5,6 @@
 user_pref("browser.contentblocking.category", "standard");
 
 // PREF: disable login manager
-user_pref("signon.rememberSignons", true);
 user_pref("signon.rememberSignons", false);
 user_pref("signon.autofillForms", false);
 user_pref("signon.generation.enabled", false);
